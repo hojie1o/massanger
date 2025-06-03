@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Comments</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="user-profile">
+    <img class="avatar-large" src="./mal.png" alt="User Avatar">
+    <h3 class="username">Hojiev Amirbek</h3>
+  </header>
+  
+  <div class="container">
+    <div class="comment">
+      <div class="score-box">
+        <button class="plus" >+</button>
+        <div class="score">5</div>
+        <button class="minus">-</button>
+      </div>
+      <div class="comment-body">
+        <div class="top">
+          <img src="images/avatars/image-amyrobson.png" class="avatar" />
+          <span class="name">amyrobson</span>
+          <span class="date">1 week ago</span>
+
+          <button class="delete-btn">Delete</button>
+        </div>
+        <p class="text">Some think</p>
+      </div>
+    </div>
+
+    <div class="comment">
+      <div class="score-box">
+        <button class="plus">+</button>
+        <div class="score">3</div>
+        <button class="minus">-</button>
+      </div>
+      <div class="comment-body">
+        <div class="top">
+          <img src="images/avatars/image-maxblagun.png" class="avatar" />
+          <span class="name">maxblagun</span>
+          <span class="date">2 days ago</span>  
+
+          <button class="delete-btn">Delete</button>
+        </div>
+        <p class="text">Some think 2</p>
+      </div>
+    </div>
+
+
+    <div class="add-comment">
+      <textarea placeholder="Write your comment..." id="new-comment-text"></textarea>
+      <button id="add-comment-btn">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
